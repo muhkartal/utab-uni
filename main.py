@@ -1,11 +1,11 @@
 import streamlit as st
-from utab.app.login_page import login_page
-from utab.app.main_page import main_page
-from utab.app.request_page import request_page
-from utab.app.navigation import handle_navigation
-from utab.app.chart_page import show_charts
+from login_page import login_page
+from main_page import main_page
+from request_page import request_page
+from navigation import handle_navigation
+from chart_page import show_charts
 from admin import admin_page
-from utab.app.teacher_page import teacher_page
+from teacher_page import teacher_page
 
 # Check if teacher is logged in
 if 'teacher_info' not in st.session_state:

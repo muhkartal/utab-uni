@@ -32,9 +32,9 @@ def apply_styles():
 # MySQL connection function
 def get_connection():
     return mysql.connector.connect(
-        host="your_host",
-        user="your_user",
-        password="your_password",
+        host="your_localhost",
+        user="your_root",
+        password="your_pass",
         database="your_database"
     )
 

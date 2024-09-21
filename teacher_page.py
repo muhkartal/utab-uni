@@ -22,9 +22,9 @@ def display_results(results):
 def get_teacher_data():
     # Connect to the MySQL database
     conn = mysql.connector.connect(
-        host="your_host",
-        user="your_user",
-        password="your_password",
+        host="your_localhost",
+        user="your_root",
+        password="your_pass",
         database="your_database"
     )
     
