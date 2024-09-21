@@ -4,10 +4,10 @@ import mysql.connector
 # MySQL connection function
 def get_connection():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="admin",
-        database="utab"
+        host="your_host",
+        user="your_user",
+        password="your_password",
+        database="your_database"
     )
 def apply_styles():
     st.markdown("""

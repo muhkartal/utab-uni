@@ -7,10 +7,10 @@ import matplotlib.pyplot as plt
 # Connect to MySQL database
 def get_db_connection():
     return mysql.connector.connect(
-        host="localhost",
-        user="root",
-        password="admin",
-        database="utab"
+        host="your_host",
+        user="your_user",
+        password="your_password",
+        database="your_database"
     )
 
 def get_teacher_result(teacher_id):

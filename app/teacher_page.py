@@ -22,10 +22,10 @@ def display_results(results):
 def get_teacher_data():
     # Connect to the MySQL database
     conn = mysql.connector.connect(
-        host='localhost',
-        user='root',
-        password='admin',
-        database='utab'
+        host="your_host",
+        user="your_user",
+        password="your_password",
+        database="your_database"
     )
     
     query = "SELECT answer FROM teacher WHERE teacher_id = %s"
