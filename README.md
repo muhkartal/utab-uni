@@ -49,9 +49,6 @@ This project is a web-based application built using Streamlit and MySQL, designe
 
 The platform leverages Streamlit for its user interface, MySQL for data management, and supports uploading and processing `.dat` files. The calculated results are stored in the system, and teachers can download them as `.xls` files.
 
-### Built With
-
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 <!-- GETTING STARTED -->
 
